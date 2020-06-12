@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "expense",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "paymentDate": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "name",
+        "paymentDate"
+    ],
+    "additionalProperties": true
+}
